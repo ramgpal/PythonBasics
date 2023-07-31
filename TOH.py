@@ -3,9 +3,10 @@
 def Toh(n, source, destination, medium):
     if(n == 1):
         print("Move disk 1 from", source, "to", destination)
+        return
     Toh(n-1, source, medium, destination)
     print("Move disk n from", source, "to", destination)
-    Toh(n-1, destination,, source, medium)
+    Toh(n-1, destination, source, medium)
 Toh(3, 'A', 'B', 'C')
 
 # def tower_of_hanoi(n, source, destination, auxiliary):
