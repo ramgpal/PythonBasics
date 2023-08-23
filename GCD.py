@@ -10,6 +10,7 @@ n = int(input("Enter 2nd number\n"))
 #         hcf = i
 # print(hcf)
 
+
 # Optimize approach -> Euclidean Algorithm
   # TC -> O(log(min))
 if m < n:
