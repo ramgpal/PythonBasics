@@ -11,6 +11,7 @@ n = int(input("Enter 2nd number\n"))
 # print(hcf)
 
 # Optimize approach -> Euclidean Algorithm
+  # TC -> O(log(min))
 if m < n:
     max = n
     min = m
